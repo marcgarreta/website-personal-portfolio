@@ -12,7 +12,7 @@ import "./index.css";
 function App() {
   return (
     <Router>
-      <MouseEffect /> {/* Global MouseEffect for all pages */}
+      <MouseEffect /> {/* MouseEffect for the hover effect */}
       <Routes>
         {/* Home page */}
         <Route
@@ -30,7 +30,7 @@ function App() {
             </div>
           }
         />
-        {/* Projects Archive page */}
+        {/* Direct access to projects archive */}
         <Route
           path="/projects-archive"
           element={<ProjectsArchive />}

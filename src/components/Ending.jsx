@@ -8,9 +8,9 @@ const Ending = () => {
       (entries) => {
         const entry = entries[0];
         if (entry.isIntersecting) {
-          document.body.style.overflow = "hidden"; // lock scroll at end
+          document.body.style.overflow = "hidden";
         } else {
-          document.body.style.overflow = "auto"; // re-enable scroll
+          document.body.style.overflow = "auto"; 
         }
       },
       { threshold: 0.9 }
