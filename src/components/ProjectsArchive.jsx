@@ -14,8 +14,8 @@ const projects = [
     year: "2025",
     title: "Personal Website",
     builtWith: ["React", "Vite", "Vercel"],
-    link: "https://github.com/marcgarreta/PersonalWebsite",
-    linkText: "github.com/marcgarreta/PersonalWebsite",
+    link: "https://github.com/marcgarreta/website-personal-portfolio",
+    linkText: "github.com/marcgarreta/website-personal-portfolio",
   },
 ];
 
